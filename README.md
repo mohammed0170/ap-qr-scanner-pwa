@@ -44,14 +44,14 @@ Instead of manually typing information from each AP box:
 For example, a QR code may contain:
 
 ```text
-PROG#:TEST-AP-0001;DESCRIPTION:AP4020-WW;PART#:AP4020-WW;MAC:02A1B2C3D4E5;SYSTEM:TEST-SYSTEM-001;
+PROG#:TEST-AP-0001;DESCRIPTION:AP4020-WW;PART#:AP4020-WW;MAC:02a1b2c3d4e5;SYSTEM:TEST-SYSTEM-001;
 ```
 
 The application extracts:
 
 ```text
 Serial Number: TEST-AP-0001
-MAC Address: 02A1B2C3D4E5
+MAC Address: 02a1b2c3d4e5
 ```
 
 The other fields are ignored.
@@ -168,7 +168,7 @@ Example:
 
 ```csv
 Serial Number,MAC Address
-TEST-AP-0001,02A1B2C3D4E5
+TEST-AP-0001,02a1b2c3d4e5
 TEST-AP-0002,02A1B2C3D4E6
 TEST-AP-0003,02A1B2C3D4E7
 ```
@@ -220,7 +220,7 @@ Example:
 
 ```text
 Serial Number: TEST-AP-0001
-MAC Address: 02A1B2C3D4E5
+MAC Address: 02a1b2c3d4e5
 SYSTEM: TEST-SYSTEM-001
 ```
 
@@ -256,14 +256,14 @@ The scanner accepts a MAC address from the QR code with or without separators.
 For example, both are accepted:
 
 ```text
-02A1B2C3D4E5
-02:A1:B2:C3:D4:E5
+02a1b2c3d4e5
+02:a1:b2:c3:d4:e5
 ```
 
 Valid 12-character MAC addresses are normalised to the standard colon-separated format:
 
 ```text
-02:A1:B2:C3:D4:E5
+02:a1:b2:c3:d4:e5
 ```
 
 The CSV export therefore uses the colon-separated format, which is commonly used when entering or importing MAC addresses into DHCP systems.
