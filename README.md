@@ -247,3 +247,23 @@ Version 1 focuses on four things:
 - **Export** the inventory to CSV
 
 It deliberately does not include a login, cloud database, DHCP configuration or direct ExtremeCloud IQ integration.
+
+
+## MAC Address format
+
+The scanner accepts a MAC address from the QR code with or without separators.
+
+For example, both are accepted:
+
+```text
+02A1B2C3D4E5
+02:A1:B2:C3:D4:E5
+```
+
+Valid 12-character MAC addresses are normalised to the standard colon-separated format:
+
+```text
+02:A1:B2:C3:D4:E5
+```
+
+The CSV export therefore uses the colon-separated format, which is commonly used when entering or importing MAC addresses into DHCP systems.
