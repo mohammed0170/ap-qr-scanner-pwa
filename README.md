@@ -15,7 +15,7 @@ It may also work with other access point models, provided their QR codes contain
 
 Compatibility with other models has not been verified and may depend on the QR-code format.
 
-MAC addresses are formatted in lowercase with colons, for example "02:a1:b2:c3:d4:e5".
+Valid MAC addresses are normalised to lowercase with colons, for example "02:a1:b2:c3:d4:e5".
 
 **Important notes**
 
