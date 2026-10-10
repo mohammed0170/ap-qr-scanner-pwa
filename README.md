@@ -6,18 +6,18 @@ AP QR Scanner lets you scan the QR codes printed on **Extreme AP4020 boxes** usi
 
 **Compatibility**
 
-AP QR Scanner has been tested with Extreme Networks AP4020 access points.
+AP QR Scanner has been tested with AP4020 access points.
 
-It may also work with other access point models and manufacturers, provided their QR codes contain the required fields:
+It may also work with other access point models, provided their QR codes contain the required fields:
 
 - "PROG#" — used as the Serial Number
 - "MAC" — used as the MAC Address
 
-The scanner reads these fields from the QR-code content. Compatibility with other access point models has not been verified and may depend on the QR-code format.
+Compatibility with other models has not been verified and may depend on the QR-code format.
 
 MAC addresses are formatted in lowercase with colons, for example "02:a1:b2:c3:d4:e5".
 
-Important notes
+**Important notes**
 
 - The tool is independent and is not an official Extreme Networks product.
 - Scan records are stored locally in your browser.
