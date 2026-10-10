@@ -4,6 +4,26 @@
 
 AP QR Scanner lets you scan the QR codes printed on **Extreme AP4020 boxes** using a device camera. It automatically extracts the **Serial Number** and **MAC Address**, stores the results locally in the browser, and exports the collected APs to a CSV file.
 
+Compatibility
+
+AP QR Scanner has been tested with Extreme Networks AP4020 access points.
+
+It may also work with other access point models and manufacturers, provided their QR codes contain the required fields:
+
+- "PROG#" — used as the Serial Number
+- "MAC" — used as the MAC Address
+
+The scanner reads these fields from the QR-code content. Compatibility with other access point models has not been verified and may depend on the QR-code format.
+
+MAC addresses are formatted in lowercase with colons, for example "02:a1:b2:c3:d4:e5".
+
+Important notes
+
+- The tool is independent and is not an official Extreme Networks product.
+- Scan records are stored locally in your browser.
+- CSV export is provided for use in inventory records and other workflows.
+- The tool does not directly configure DHCP reservations or ExtremeCloud IQ.
+
 This is particularly useful when installing or preparing **multiple APs** and you need to collect their MAC addresses for **DHCP reservations** or their Serial Numbers for **ExtremeCloud IQ**.
 
 ## Works on phones, tablets and PCs
