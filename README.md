@@ -4,7 +4,7 @@
 
 AP QR Scanner lets you scan the QR codes printed on **Extreme AP4020 boxes** using a device camera. It automatically extracts the **Serial Number** and **MAC Address**, stores the results locally in the browser, and exports the collected APs to a CSV file.
 
-Compatibility
+**Compatibility**
 
 AP QR Scanner has been tested with Extreme Networks AP4020 access points.
 
